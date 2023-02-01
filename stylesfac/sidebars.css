@@ -1,0 +1,431 @@
+ .left-sidebar{
+
+display: flex;
+position: fixed;
+left: 0;
+top: 65px;
+bottom: 0;
+background-color: rgb(238, 240, 243);
+width: 450px;
+flex-direction: column;
+flex: 1, 1, 0.25;
+overflow-y: auto;
+max-height: 1000px;
+
+ }
+
+
+
+
+
+@media(max-width:1110px){
+
+
+.left-sidebar{
+
+
+opacity: 0;
+
+}
+
+
+
+}
+
+
+
+
+
+.uppr{
+
+display: flex;
+flex-direction: column;
+border-bottom: 1px solid  lightgrey;
+width: 380px;
+align-items: center;
+
+}
+
+
+.profpic{
+
+display: flex;
+flex-direction: row;
+margin-left: 6px;
+margin-top: 6px;
+width: 370px;
+vertical-align: middle;
+margin-bottom: -10px;
+cursor: pointer;
+align-items: center;
+
+}
+
+.profpic:hover{
+
+background-color: rgb(219, 218, 218);
+border-radius: 4px;
+}
+
+
+.profimg{
+
+   width: 30px;
+   min-height: 30px;
+   border-radius: 15px;
+   cursor: pointer;
+}
+
+
+.namep{
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 17px;
+   color: black;
+   margin-left: 12px;
+   padding-bottom: 10px;
+
+
+}
+
+
+.friimg{
+
+width: 30px;
+height: 30px;
+
+
+}
+
+.prof, .name{
+
+padding-left: 6px;
+
+
+}
+
+
+.dow{
+
+  display: flex;
+  flex-direction: column; 
+
+}
+
+.shortcut{
+padding-top: 18px;
+padding-left: 13px;   
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 500;
+font-size: 20px;
+color: gray;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+
+.wyvili:hover{
+
+background-color: rgb(219, 218, 218); 
+border-radius: 4px;
+
+
+}
+
+.wyvili{
+
+display: flex;
+flex-direction: row;
+align-items:center;
+padding-top: 10px;
+cursor: pointer;
+
+}
+
+.img{
+margin-left: 13px;
+
+}
+
+.oqto{
+width: 35px;
+border-radius: 8px;
+margin-bottom: 3px;
+}
+
+.info{
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 17px;
+   color: black;
+   margin-left: 12px;
+   
+
+
+}
+
+
+
+
+
+
+
+ .right-sidebar{
+    display: flex;
+    position:fixed;
+    flex-direction: column;
+    right: 0;
+    top: 100px;
+    bottom: 0;
+    
+    width: 350px;
+    overflow-y: auto;
+max-height: 1000px;
+scrollbar-width: 20px
+;
+   
+ }
+
+
+
+ @media(max-width:1790px){
+
+
+   .right-sidebar{
+   
+   
+   opacity: 0;
+   
+   }
+   
+   
+   
+   }
+
+   .erti{
+
+display: flex;
+flex-direction: row;
+border-bottom: 1px solid  lightgrey;
+   }
+
+.page{
+
+
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 17px;
+   color: rgb(138, 138, 138);
+   margin-left: 12px;
+   padding-bottom: 10px;
+   white-space: nowrap;
+   margin-left: 0px;
+   margin-bottom: 5px;
+cursor: pointer;
+
+
+}
+
+
+
+   .dots{
+margin-left: 140px;
+margin-bottom: 5px;
+width: 25px;
+height: 25px;
+border-radius:12px;
+justify-items: center;
+justify-content: center;
+cursor: pointer;
+   }
+
+.dots:hover{
+
+background-color: lightgray;
+
+
+}
+
+
+
+   .wertilebi{
+
+width: 15px;
+margin-left: 5px;
+margin-top: 5px;
+
+
+   }
+   
+   .ori{
+      display: flex;
+      flex-direction:column ;
+      margin-top: 15px;
+      cursor: pointer;
+      border-bottom: 1px solid  lightgrey;
+      height: 90px;
+        }
+
+       
+      
+        .dab{
+       
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+     
+        }
+
+        .dab:hover{
+    
+         background-color: lightgray;
+         border-radius: 4px;
+        }
+
+        .sach{
+        
+         width: 25px;
+        margin-top: 5px;
+
+        }
+        .hinata{
+       
+        padding-top: 7px;
+        padding-left: 12px;
+        font-size: 16px;
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .spa{
+
+          font-weight: 600;
+
+        }
+
+        .sami{
+        
+       display: flex;
+       flex-direction: column;
+       margin-top: 20px;
+           
+        }
+
+        .sawyisi{
+      
+         display: flex;
+         flex-direction: row;
+         
+
+        }
+
+
+        .kantakt{
+
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         font-size: 17px;
+         color: rgb(138, 138, 138);
+         margin-left: 12px;
+         padding-bottom: 10px;
+         white-space: nowrap;
+         margin-left: 0px;
+         margin-bottom: 5px;
+      cursor: pointer;
+      
+
+
+        }
+
+
+
+        .chatt-but{
+        
+        display: flex;
+        flex-direction: row;
+        margin-left: 178px;
+        
+        }
+
+     
+
+
+
+
+        .imgg{
+
+        width: 15px;
+        height: 15px; 
+        margin-top: 8px;
+
+
+        }
+
+        .imgg1{
+         display: flex;
+         width: 30px;
+         height: 30px;
+         border-radius: 15px;
+         margin: 3px;
+          justify-content: center;
+          justify-items: center;
+        }
+
+        .imgg1:hover{
+         
+           background-color: lightgray;
+
+
+        }
+
+        .individ{
+         display: flex;
+         flex-direction: row;
+          margin-top: 10px;
+          padding-left: 5px;
+          border-radius: 4px;
+        }
+
+
+        .individ:hover{
+         
+        background-color: lightgray;
+
+
+        }
+
+        .surati{
+        
+         width: 40px;
+         height: 40px;
+         border-radius: 20px;
+
+
+        }
+
+        .sur{
+
+
+       width: 40px;
+       height: 40px;
+       border-radius: 20px;
+        cursor: pointer;
+
+        }
+
+        .namen{
+
+        
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         font-weight: 500;
+         font-size: 17px;
+         color: black;
+         margin-left: 12px;
+         white-space: nowrap;
+      cursor: pointer;
+        margin-top: 7px;
+       margin-left: 15px;
+
+        }
